@@ -1,6 +1,7 @@
 // complete the given function
 
 function palindrome(str){
+	str = str.toLowerCase()
 	let reverseWord = str.split(" ").map((e) => {
         return e.trim();
     }).reverse().join("");
